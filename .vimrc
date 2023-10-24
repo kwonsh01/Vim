@@ -93,14 +93,13 @@ let g:NERDTrimTrailingWhitespace = 1
 map <F8> :TagbarToggle<CR>
 
 " AutoPairs
-" let g:AutoPairsFlyMode = 1
+ let g:AutoPairsFlyMode = 1
 
 " if exists('+termguicolors')
 "   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 "   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 "   set termguicolors
 " endif
-
 
 " SystemVerilog HDL
 au BufNewFile,BufRead  *.sv  so  ~/.vim/syntax/verilog_systemverilog.vim
