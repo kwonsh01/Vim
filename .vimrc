@@ -14,6 +14,10 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'majutsushi/tagbar'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'honza/vim-snippets'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -94,6 +98,9 @@ map <F8> :TagbarToggle<CR>
 
 " AutoPairs
  let g:AutoPairsFlyMode = 1
+
+" Snippet
+ let g:snipMate = { 'snippet_version' : 1 }
 
 " if exists('+termguicolors')
 "   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
